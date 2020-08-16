@@ -1,0 +1,104 @@
+*{
+    /* border: 1px solid black; */
+    font-family: 'Manjari', sans-serif;
+}
+
+body {
+    height: 200em;
+    width: 94.89em;
+    background:#F2F2F2 ;
+}
+
+.navbar {
+    width: 100%;
+   height: 4.3em;
+   background: #d0cdc4a1;
+   list-style: none;
+   z-index: 10;
+   position: fixed;
+}
+
+.nav_comp {
+      width: 45%;
+      height: 4.3em;
+      float: right;
+      margin: 0;
+}
+
+.navbar li { 
+    display: inline-block;
+    margin: 1em .2em 1em 0;
+    width: 5.5em;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#main_header {
+    position: relative;
+    z-index: -100;
+    top: -4.3em;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 53.8em;
+    background: #000000 url(../img/header.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#sc1 {
+    position: relative;
+    top: -4.3em;
+    width: 100%;
+    height: 45.1em;
+    margin: 0;
+    z-index: -100;
+    background-color: #F2F2F2;
+}
+
+#sc2 {
+    position: relative;
+    top: -4.3em;
+    width: 100%;
+    height: 45.1em;
+    margin: 0;
+    z-index: -100;
+    background:  #000000 url(../img/img1.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#sc3 {
+    position: relative;
+    top: -4.3em;
+    width: 100%;
+    height: 45.1em;
+    margin: 0;
+    z-index: -100;
+    background: #F2F2F2 url(../img/img3.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#pre_footer {
+    position: relative;
+    top: -4.3em;
+    width: 100%;
+    height: 45.2em;
+    background: pink;
+}
+
+
+
+
+
+
+
+
