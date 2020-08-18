@@ -1,11 +1,15 @@
-*{
-    /* border: 1px solid black; */
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
     font-family: 'Manjari', sans-serif;
 }
 
 body {
     height: 200em;
-    width: 94.89em;
+    max-width: 100%;
     background:#F2F2F2 ;
 }
 
@@ -19,7 +23,7 @@ body {
 }
 
 .nav_comp {
-      width: 45%;
+      width: 50%;
       height: 4.3em;
       float: right;
       margin: 0;
@@ -28,7 +32,7 @@ body {
 .navbar li { 
     display: inline-block;
     margin: 1em .2em 1em 0;
-    width: 5.5em;
+    width: 5em;
     font-size: 1.5em;
     text-align: center;
     vertical-align: middle;
@@ -38,6 +42,12 @@ body {
 .navbar a {
     text-decoration: none;
     color: #000000;
+    font-variant: small-caps;
+}
+
+.navbar a:hover {
+    color: #BF9765;
+    text-shadow: .1em .1em .6em #666151 ;
 }
 
 #main_header {
@@ -92,8 +102,160 @@ body {
     top: -4.3em;
     width: 100%;
     height: 45.2em;
-    background: pink;
+    background: #F2F2F2;
 }
+
+#main_header h1 {
+    font-family: 'Fjalla One', sans-serif;
+    z-index: 3;
+    font-weight: 700;
+    font-size: 6em;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    top: 3.5em;
+    color: #D0CDC4;
+    letter-spacing: .1em;
+}
+
+#main_header h2 {
+    z-index: 3;
+    font-weight: 400;
+    font-variant: small-caps;
+    font-size: 3em;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    top: 7em;
+    color: #BF9765;
+    letter-spacing: .45em;
+}
+
+.about {
+    max-width: 60%;
+    height: 47.1em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    position: relative;
+    top: 3.5em; 
+}
+
+.about h3 {
+    font-variant: small-caps;
+    margin-top: 2.5em;
+    font-size: 2em;
+    letter-spacing: 0.2em;
+}
+
+.about p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+ #sc2 table { 
+    width: 50%;
+    margin: 0 auto;
+    color:#F2F2F2;
+    z-index: 3;
+     background: #F2F2F2;
+    color: #666151;
+    border-radius: .5em;
+    border-collapse: collapse;
+   
+}
+
+#scTable tr,td {
+   
+    padding: .8em;
+    border-bottom: 1px solid #BF9765;
+}
+
+#scTable tr:last-child,
+         td:last-child {
+             border: none;
+}
+
+.table_head {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2em;
+    padding-bottom: .5em;
+    color: #000000;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+#scTable {
+    position: relative;
+    top: 8em;
+    width: 55%;
+    
+}
+
+ .center {
+     text-align: center;
+ }
+ 
+ #sc2 p {
+    color: #BF9765;
+    font-size: 2em;
+    font-family: 'Fjalla One', sans-serif;
+    position: relative;
+    left: 5.2em;
+    top: 5em;
+    width: 50%;
+ }
+
+.placesClass {
+    width: 50%;
+    position: relative;
+    left: 42em ;
+    top: 7em;
+}
+
+.placesClass h3 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3.5em;
+    font-variant: small-caps;
+    margin: .8em 0;
+}
+
+.placesClass p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+#ul_header {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2em;
+    margin: 0 2em;
+    font-variant: small-caps;
+}
+
+.table_places {
+    width: 40%;
+    margin: 0 12em;
+   
+}
+
+.table_places li {
+    list-style-type: none;
+    font-size: 1.3em;
+}
+
+.table_places li::before {
+    content: "_";
+}
+ 
+ 
+
 
 
 
