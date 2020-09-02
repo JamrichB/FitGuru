@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    height: 200em;
+    height: 100%;
     max-width: 100%;
     background:#F2F2F2 ;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 .nav_comp {
-      width: 50%;
+      width: 55%;
       height: 4.3em;
       float: right;
       margin: 0;
@@ -87,7 +87,7 @@ body {
 
 #sc3 {
     position: relative;
-    top: -4.3em;
+    top: -7.1em;
     width: 100%;
     height: 45.1em;
     margin: 0;
@@ -101,7 +101,7 @@ body {
     position: relative;
     top: -4.3em;
     width: 100%;
-    height: 45.2em;
+    height: 40.9em;
     background: #F2F2F2;
 }
 
@@ -146,6 +146,7 @@ body {
     border-radius: 50%;
     position: relative;
     top: 3.5em; 
+    margin-top: 3em;
 }
 
 .about h3 {
@@ -169,7 +170,6 @@ body {
     color: #666151;
     border-radius: .5em;
     border-collapse: collapse;
-   
 }
 
 #scTable tr,td {
@@ -196,11 +196,10 @@ body {
     position: relative;
     top: 8em;
     width: 55%;
-    
 }
 
  .center {
-     text-align: center;
+    text-align: center;
  }
  
  #sc2 p {
@@ -242,7 +241,6 @@ body {
 .table_places {
     width: 40%;
     margin: 0 12em;
-   
 }
 
 .table_places li {
@@ -253,6 +251,72 @@ body {
 .table_places li::before {
     content: "_";
 }
+
+.components {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside_artc {
+    width: 25%;
+    height: 30em;
+    margin: 6.5em 0 0 4em;
+    box-shadow: .4em .4em 1.5em #ccc;
+    padding: 0 0.5em;
+}
+
+#first_artc {
+    margin-left: 0;
+}
+
+.aside_artc h3 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2.5em;
+    font-variant: small-caps;
+    margin-bottom: 1em;
+}
+
+.aside_artc p{
+    text-align: justify;
+}
+
+#footer {
+    width: 100%;
+    height: 20em;
+    background: #111;
+    text-align: center;
+}
+
+#footer ul {
+    padding-top: 2em;
+}
+
+.icons {
+    display: inline-block;
+    margin: 2em 2em 0 0;
+}
+
+.icons:last-child {
+    margin-right: 0;
+}
+
+.final_footer {
+    width: 100%;
+    height: 2.2em;
+    margin-top: 11.1em;
+    background: #444;
+    text-align: center;
+    padding-top: .05em;
+}
+
+.final_footer p { 
+    font-size: .8em;
+    letter-spacing: .2em;
+    font-family: 'Roboto', sans-serif;
+}
+
  
  
 
