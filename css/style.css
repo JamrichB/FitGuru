@@ -23,10 +23,10 @@ body {
 }
 
 .nav_comp {
-      width: 55%;
+      width: 60%;
       height: 4.3em;
       float: right;
-      margin: 0;
+      margin: 0 3em 0 0;
 }
 
 .navbar li { 
@@ -48,6 +48,22 @@ body {
 .navbar a:hover {
     color: #BF9765;
     text-shadow: .1em .1em .6em #666151 ;
+}
+
+.burger{
+    margin-left: 3em;
+    display: none;
+    float: right;
+    margin: 1.7em 2em;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 1.2em;
+    height: .1em;
+    background:#000000;
+    margin: .2em;
+    display: block;
 }
 
 #main_header {
@@ -264,6 +280,7 @@ body {
     margin: 6.5em 0 0 4em;
     box-shadow: .4em .4em 1.5em #ccc;
     padding: 0 0.5em;
+    border-radius: 1em;
 }
 
 #first_artc {
@@ -285,8 +302,9 @@ body {
 #footer {
     width: 100%;
     height: 20em;
-    background: #111;
+    background: #D0CDC4;
     text-align: center;
+    
 }
 
 #footer ul {
@@ -304,7 +322,7 @@ body {
 
 .final_footer {
     width: 100%;
-    height: 2.2em;
+    height: 2.5em;
     margin-top: 11.1em;
     background: #444;
     text-align: center;
@@ -315,7 +333,111 @@ body {
     font-size: .8em;
     letter-spacing: .2em;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
+
+@media screen and (max-width: 1370px) {
+    .nav_comp {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1175px){
+    .nav_comp {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    .nav_comp {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 916px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav_comp {
+        position: absolute;
+        right: 0;
+        height: 28em;
+        top: 4.3em;
+        background: #d0cdc4a1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+        margin: 0;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        }
+    .nav_comp li {
+        opacity: 0;
+        }
+    .burger {
+        display: block;
+        }
+}
+
+@media screen and (max-width: 730px) {
+    #main_header h1 {
+        font-size: 4em;
+        top: 5.5em;
+    }
+    #main_header h2 {
+        font-size: 2em;
+        top: 11em;
+    }
+    .about {
+        max-width: 80%;
+    }
+    .about img {
+        margin-top: .2em ;
+    }
+}
+
+@media screen and (max-width: 641px) {
+    .about {
+        max-width: 90%;
+    }
+    .about p {
+        font-size: 1em;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-4px, 3px);
+    transition: transform 0.2s ease-in;
+}
+
+.toggle .line2 {
+    opacity: 0;
+}
+.toggle .line3 {
+    transform: rotate(45deg) translate(-4px,-3px);
+    transition: transform 0.2s ease-in;
+}
+
+
+
+
+
 
  
  
