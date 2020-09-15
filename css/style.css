@@ -154,6 +154,14 @@ body {
     height: 47.1em;
     margin: 0 auto;
     text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: .8s all ease-in-out;
+}
+
+.about_animate {
+    opacity: 1;
+    transform: translateY(0px);
 }
 
 .about img {
@@ -187,7 +195,7 @@ body {
     border-collapse: collapse;
 }
 
-#scTable tr,td {
+.scTable tr,td {
     padding: .8em;
     border-bottom: 1px solid #BF9765;
 }
@@ -201,15 +209,23 @@ body {
     font-variant: small-caps;
 }
 
-#scTable {
+.scTable {
     position: relative;
     top: 6em;
     width: 55%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: .8s all ease-in-out;
+}
+
+.scTable_animate {
+    opacity: 1;
+    transform: translateY(0px);
 }
 
  .center {
     text-align: center;
- }
+}
  
  #sc2 p {
     color: #BF9765;
@@ -217,7 +233,7 @@ body {
     font-family: 'Fjalla One', sans-serif;
     position: relative;
     left: 5.2em;
-    top: 4em;
+    top: 1em;
     width: 50%;
  }
 
@@ -227,6 +243,14 @@ body {
     left: 42em ;
     top: 7em;
     overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: .8s all ease-in-out;
+}
+
+.placesClass_animate{
+    opacity: 1;
+    transform: translateY(0px);
 }
 
 .placesClass h3 {
@@ -266,6 +290,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: .8s all ease-in-out;
+}
+
+.components_animate {
+    opacity: 1;
+    transform: translateY(0px);
 }
 
 .aside_artc {
@@ -350,7 +382,7 @@ body {
     .nav_comp {
         width: 80%;
     }
-    #scTable {
+    .scTable {
         width: 70%;
     }
     .placesClass{
@@ -375,7 +407,7 @@ body {
     .nav_comp {
         width: 90%;
     }
-    #scTable {
+    .scTable {
         max-width: 50em;
     }
     .placesClass{
@@ -413,7 +445,7 @@ body {
     .burger {
         display: block;
     }
-    #scTable {
+    .scTable {
         min-width: 80%;
     }
     .placesClass{
@@ -465,11 +497,11 @@ body {
     .about img {
         margin-top: .2em ;
     }
-    #scTable {
+    .scTable {
         min-width: 100%;
     }
     #sc2 p {
-        left: 5em;
+        left: 2em;
     }
     .placesClass {
         left: 7em;
@@ -493,15 +525,14 @@ body {
     .about p {
         font-size: 1em;
     }
-    #scTable {
-        width: 40em;
+    .scTable {
+        width: 20em;
     }
-    #scTable table{
-       margin-right: 15em;
+    .scTable table{
+       margin-right: 1.5em;
     }
-    #sc2 p {
-        left: 1.5em;
-        top: 4em;
+    .scTable p {
+        top: 2em;
     }
     .placesClass {
         left: 5.5em;
