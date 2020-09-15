@@ -4,7 +4,7 @@ html {
 }
 *, *:before, *:after {
     box-sizing: inherit;
-    font-family: 'Manjari', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 body {
@@ -20,6 +20,7 @@ body {
    list-style: none;
    z-index: 10;
    position: fixed;
+   
 }
 
 .nav_comp {
@@ -27,6 +28,7 @@ body {
     height: 4.3em;
     float: right;
     margin: 0 3em 0 0;
+    
 }
 
 .navbar li { 
@@ -43,6 +45,7 @@ body {
     text-decoration: none;
     color: #000000;
     font-variant: small-caps;
+    font-family: 'Manjari', sans-serif;
 }
 
 .navbar a:hover {
@@ -146,7 +149,7 @@ body {
     margin: 0 auto;
     top: 7em;
     color: #BF9765;
-    letter-spacing: .45em;
+    letter-spacing: .46em;
 }
 
 .about {
@@ -178,6 +181,8 @@ body {
     margin-top: 2.5em;
     font-size: 2em;
     letter-spacing: 0.2em;
+    font-family: 'Manjari', sans-serif;
+
 }
 
 .about p {
@@ -324,6 +329,7 @@ body {
 
 .aside_artc p{
     text-align: justify;
+    font-size: 1.1em;
 }
 
 #footer {
