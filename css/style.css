@@ -434,7 +434,7 @@ body {
     .nav_comp {
         position: absolute;
         right: 0;
-        height: 28em;
+        height: 30em;
         top: 4.3em;
         background:#d0cdc4e3;
         display: flex;
